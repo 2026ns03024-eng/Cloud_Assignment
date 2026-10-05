@@ -1,0 +1,5 @@
+# Copy to ~/.monitor_conf and set WEBHOOK_URL to your webhook.site unique URL.
+MAX_DISK=80
+ERROR_LIMIT=5
+WEBHOOK_URL=https://webhook.site/your-unique-id
+LOG_FILE=access.log

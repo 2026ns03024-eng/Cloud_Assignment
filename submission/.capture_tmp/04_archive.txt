@@ -1,0 +1,10 @@
+Last login: Thu Oct 01 01:31:44 2026
+2026NS03024> ls -l ~/archive
+-rw-r-----  1 dhruv.kumar2@cohesity.com  staff   1661 Oct  1 01:24 access-2026-10-01_012452.log.gz
+-rw-r-----  1 dhruv.kumar2@cohesity.com  staff  20357 Oct  1 01:25 access-2026-10-01_012459.log.gz
+-rw-r-----  1 dhruv.kumar2@cohesity.com  staff  20311 Oct  1 01:30 access-2026-10-01_013044.log.gz
+-rw-r-----  1 dhruv.kumar2@cohesity.com  staff   3763 Oct  1 01:31 access-2026-10-01_013111.log.gz
+-rw-r-----  1 dhruv.kumar2@cohesity.com  staff  20381 Oct  1 01:31 access-2026-10-01_013120.log.gz
+-rw-r-----  1 dhruv.kumar2@cohesity.com  staff  20335 Oct  1 01:31 access-2026-10-01_013137.log.gz
+-rw-r-----  1 dhruv.kumar2@cohesity.com  staff   2023 Oct  1 01:31 access-2026-10-01_013140.log.gz
+-rw-r-----  1 dhruv.kumar2@cohesity.com  staff   1669 Oct  1 01:31 access-2026-10-01_013143.log.gz

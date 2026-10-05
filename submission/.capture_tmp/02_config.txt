@@ -1,0 +1,6 @@
+Last login: Thu Oct 01 01:31:38 2026
+2026NS03024> cat ~/.monitor_conf
+MAX_DISK=80
+ERROR_LIMIT=5
+WEBHOOK_URL=https://httpbin.org/post
+LOG_FILE=access.log

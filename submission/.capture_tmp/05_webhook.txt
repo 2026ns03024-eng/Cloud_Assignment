@@ -1,0 +1,10 @@
+Last login: Thu Oct 01 01:31:44 2026
+2026NS03024> # Webhook receiver (use your webhook.site URL in ~/.monitor_conf)
+Wrote 1200 lines to access.log
+2026NS03024> curl -s https://httpbin.org/post -H Content-Type: application/json -d @/tmp/cm_webhook.json | jq .json | head -20
+{
+  "disk_exceeded": false,
+  "error_limit_exceeded": true,
+  "webhook_sent": false
+}
+145

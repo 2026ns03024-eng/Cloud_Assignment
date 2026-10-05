@@ -1,0 +1,56 @@
+2026NS03024> ./cloud_monitor.sh
+Proceed with system scan? (y/n): y
+{
+  "timestamp": "2026-10-01T01:31:34+0530",
+  "hostname": "MW659VFKXRD.cohesity.com",
+  "metrics": {
+    "disk_mount": "/",
+    "disk_usage_percent": 5,
+    "cpu_load_1m": 10.50,
+    "cpu_load_5m": 5.30,
+    "cpu_load_15m": 4.09
+  },
+  "log_analysis": {
+    "log_file": "access.log",
+    "total_requests": 1200,
+    "count_2xx": 885,
+    "count_4xx": 193,
+    "count_5xx": 122,
+    "error_samples": [
+      {
+        "status": 502,
+        "path": "/api/login",
+        "timestamp": "19/Aug/2026:16:35:50 +0530"
+      },
+      {
+        "status": 502,
+        "path": "/api/search",
+        "timestamp": "19/Aug/2026:22:22:48 +0530"
+      },
+      {
+        "status": 500,
+        "path": "/image.png",
+        "timestamp": "19/Aug/2026:19:17:07 +0530"
+      },
+      {
+        "status": 502,
+        "path": "/favicon.ico",
+        "timestamp": "19/Aug/2026:08:17:42 +0530"
+      },
+      {
+        "status": 502,
+        "path": "/api/search",
+        "timestamp": "19/Aug/2026:05:01:58 +0530"
+      }
+    ]
+  },
+  "thresholds": {
+    "max_disk_percent": 80,
+    "error_limit": 5
+  },
+  "alerts": {
+    "disk_exceeded": false,
+    "error_limit_exceeded": true,
+    "webhook_sent": false
+  }
+}
